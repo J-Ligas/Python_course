@@ -1,15 +1,17 @@
+"""no hay modulos por importar"""
 def suma(a, b):
+    """suma"""
     resultado = a + b
     print(resultado)
 
 suma(1, 2)
 
-def suma(a, b):
+def suma_2(a, b):
+    """suma 2"""
     resultado = a + b
     return resultado
 
-x = suma(1, 2)
-print(x)
-y = suma(x, 100)
+X = suma_2(1, 2)
+print(X)
+y = suma_2(X, 100)
 print(y)
-
