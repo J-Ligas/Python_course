@@ -11,6 +11,7 @@ def suma_2(a, b):
     resultado = a + b
     return resultado
 
+
 X = suma_2(1, 2)
 print(X)
 y = suma_2(X, 100)
